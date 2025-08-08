@@ -5,7 +5,7 @@ from flask import Flask
 from threading import Thread
 import os
 
-TOKEN: Final = os.getenv("7829022876:AAHu8zm5_GPS1h4_blyiMHtkWXk7LW3EnnI")
+TOKEN: Final = os.getenv("BOT_TOKEN")
 BOT_USERNAME: Final = "@exp_exp_bot"  # Replace with your actual bot username
 
 app_web = Flask('')
